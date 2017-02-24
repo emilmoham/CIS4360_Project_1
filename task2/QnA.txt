@@ -1,0 +1,4 @@
+Can any useful information about the orignial picture be seen in the encrypted files?
+	For the CBC encrypted files, when they are viewed in an image viewer, the picture seems to just be random noise. 
+	As for the ECB encrypted files, when these files are viewed in an image viewer, it's very easy to see basic shapes. "pic_original.bmp" has very distinct shapes, an oval and a square. In the EBC encrypted "pic_original", although the colors are distorted, the basic outlines and the fact that the shapes are solidly colored in can very easily be seen
+	
