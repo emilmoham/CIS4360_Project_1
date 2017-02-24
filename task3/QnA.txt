@@ -1,0 +1,14 @@
+File sizes recorded from unix ls command
+Character lengths measured in VIM
+
+20-aes-128-cbc.bin --> 32 Bytes | 39 Characters
+20-aes-128-cfb.bin --> 20 Bytes | 31 Characters
+20-aes-128-ecb.bin --> 32 Bytes | 47 Characters
+20-aes-128-ofb.bin --> 20 Bytes | 30 Characters
+
+32-aes-128-cbc.bin --> 48 Bytes | 69 Characters
+32-aes-128-cfb.bin --> 32 Bytes | 48 Characters
+32-aes-128-ecb.bin --> 48 Bytes | 72 Characters
+32-aes-128-ofb.bin --> 32 Bytes | 47 Characters
+
+Based on our observations of the encrypted file sizes, we can clearly see that the the "CBC" and "ECB" cipher modes have some sort of padding on them.
